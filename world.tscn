@@ -1,20 +1,33 @@
-[gd_scene load_steps=25 format=3 uid="uid://clprpapa5vphe"]
+[gd_scene load_steps=38 format=3 uid="uid://clprpapa5vphe"]
 
 [ext_resource type="Texture2D" uid="uid://b4sa8w37ucqf" path="res://assets/rogue_goblin/idle/Idle1.png" id="1_kltrn"]
 [ext_resource type="Texture2D" uid="uid://c8v0h8ye2r8a5" path="res://icon.svg" id="1_lgexd"]
 [ext_resource type="Texture2D" uid="uid://chped32l1xd05" path="res://assets/rogue_goblin/idle/Idle2.png" id="2_t8u7v"]
+[ext_resource type="Texture2D" uid="uid://c0ewfy5lon7s2" path="res://assets/rogue_goblin/attack/DashAtk1.png" id="3_7ochg"]
 [ext_resource type="Texture2D" uid="uid://bqmtaeymcvnpk" path="res://assets/rogue_goblin/idle/Idle3.png" id="3_r50rf"]
 [ext_resource type="Texture2D" uid="uid://cw5hi55qqaqhd" path="res://assets/rogue_goblin/idle/Idle4.png" id="4_7mxxq"]
+[ext_resource type="Texture2D" uid="uid://bd4rkpsxigcf3" path="res://assets/rogue_goblin/attack/DashAtk2.png" id="4_sgegc"]
 [ext_resource type="Texture2D" uid="uid://d3awhx0pdc1ro" path="res://assets/rogue_goblin/idle/Idle5.png" id="5_7n15k"]
+[ext_resource type="Texture2D" uid="uid://dw1e11gv5yv5s" path="res://assets/rogue_goblin/attack/DashAtk3.png" id="5_v8pkx"]
+[ext_resource type="Texture2D" uid="uid://cvc4r2qt8naf5" path="res://assets/rogue_goblin/attack/DashAtk4.png" id="6_hgljr"]
 [ext_resource type="Texture2D" uid="uid://ifj5xxjjar5b" path="res://assets/rogue_goblin/idle/Idle6.png" id="6_k6b2i"]
+[ext_resource type="Texture2D" uid="uid://bucdlh7swr644" path="res://assets/rogue_goblin/attack/DashAtk5.png" id="7_2vtek"]
 [ext_resource type="Texture2D" uid="uid://dwdhxef1cs12r" path="res://assets/rogue_goblin/idle/Idle7.png" id="7_k3p68"]
 [ext_resource type="Texture2D" uid="uid://cjmc8qhsig7iw" path="res://assets/rogue_goblin/idle/Idle8.png" id="8_0eipj"]
+[ext_resource type="Texture2D" uid="uid://4fg5xr6fijpo" path="res://assets/rogue_goblin/attack/DashAtk6.png" id="8_wkw0b"]
+[ext_resource type="Texture2D" uid="uid://diacoe31l04b1" path="res://assets/rogue_goblin/attack/DashAtk7.png" id="9_0rn3t"]
 [ext_resource type="Texture2D" uid="uid://ec0xum2lddrc" path="res://assets/rogue_goblin/idle/Idle9.png" id="9_thru6"]
+[ext_resource type="Texture2D" uid="uid://3qmuj7lr8h6l" path="res://assets/rogue_goblin/attack/DashAtk8.png" id="10_a33se"]
 [ext_resource type="Texture2D" uid="uid://cjrq3777b16p5" path="res://assets/rogue_goblin/idle/Idle10.png" id="10_wmode"]
+[ext_resource type="Texture2D" uid="uid://bxc38td0b5bra" path="res://assets/rogue_goblin/attack/DashAtk9.png" id="11_1qcqi"]
 [ext_resource type="Texture2D" uid="uid://r1su2cw7oj4i" path="res://assets/rogue_goblin/idle/Idle11.png" id="11_jl8ao"]
+[ext_resource type="Texture2D" uid="uid://caimrdhyao6xv" path="res://assets/rogue_goblin/attack/DashAtk10.png" id="12_nvtsf"]
 [ext_resource type="Script" path="res://character_scripts/rogue_goblin.gd" id="12_s4q47"]
 [ext_resource type="Texture2D" uid="uid://nsh3tubqrg10" path="res://assets/rogue_goblin/run/RunFull2.png" id="13_ijl0y"]
+[ext_resource type="Texture2D" uid="uid://bf567ywvpsifv" path="res://assets/rogue_goblin/attack/DashAtk11.png" id="13_sgln2"]
+[ext_resource type="Texture2D" uid="uid://c3qp78clnx6m3" path="res://assets/rogue_goblin/attack/DashAtk12.png" id="14_4jm4r"]
 [ext_resource type="Texture2D" uid="uid://chyj3m1i5dqi6" path="res://assets/rogue_goblin/run/RunFull3.png" id="14_gcjhb"]
+[ext_resource type="Texture2D" uid="uid://cfwccfaelt7b3" path="res://assets/rogue_goblin/attack/DashAtk13.png" id="15_60yoy"]
 [ext_resource type="Texture2D" uid="uid://smavmv6fu1aq" path="res://assets/rogue_goblin/run/RunFull4.png" id="15_rnviq"]
 [ext_resource type="Texture2D" uid="uid://b6edwf6flssur" path="res://assets/rogue_goblin/run/RunFull5.png" id="16_4mrsj"]
 [ext_resource type="Texture2D" uid="uid://3dp5ht1aoyux" path="res://assets/rogue_goblin/run/RunFull6.png" id="17_6lk5l"]
@@ -26,6 +39,50 @@
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_wf4r1"]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_7ochg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_sgegc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_v8pkx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_hgljr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_2vtek")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_wkw0b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_0rn3t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_a33se")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_1qcqi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_nvtsf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_sgln2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_4jm4r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_60yoy")
+}],
+"loop": false,
+"name": &"attack",
+"speed": 10.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("1_kltrn")
@@ -115,8 +172,7 @@ default_speed = 1000
 [node name="RogueSprite" type="AnimatedSprite2D" parent="RogueGoblin"]
 position = Vector2(420, 268)
 sprite_frames = SubResource("SpriteFrames_wf4r1")
-animation = &"run"
-frame_progress = 0.668541
+animation = &"attack"
 
 [node name="Camera2D" type="Camera2D" parent="RogueGoblin/RogueSprite"]
 position = Vector2(2.08165e-12, 2.08165e-12)
